@@ -6,7 +6,7 @@ import subprocess
 subprocess.run(["pip", "install", "scikit-learn"])
 
 # In[2]:
-pip install scikit-learn
+
 import sklearn
 
 
