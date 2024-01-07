@@ -12,7 +12,7 @@ import numpy as np
 # In[20]:
 
 
-df =pd.read_csv(r"C:\ml\da\laptopPrice.csv")
+df =pd.read_csv(r"laptopPrice.csv")
 df.drop(['Number of Ratings','Number of Reviews'],axis=1,inplace=True)
 
 
