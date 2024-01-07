@@ -3,7 +3,7 @@
 
 # In[2]:
 !pip install scikit-learn
-
+import sklearn
 
 
 import pandas as pd 
