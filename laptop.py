@@ -89,9 +89,6 @@ df['msoffice']=encoding.fit_transform(df['msoffice'])
 # In[10]:
 
 
-for i in df.columns[0:-2]:
-    print(i,df[i].value_counts(),X[i].value_counts())
-    print("---"*32)#use this code for input the attribute
 
 
 # In[11]:
@@ -147,15 +144,13 @@ np.sqrt(mean_squared_error(y_test,pred))
 # In[18]:
 
 
-x=np.array([0,1,3,1,4,1,512,512,2,1,4,0,1,0,1,1]).reshape(1,-1)
-regressor.predict(x)
+
 
 
 # In[19]:
 
 
-y=np.array([0,1,2,1,4,1,512,512,1,1,4,2,0,1,1,3]).reshape(1,-1)
-regressor.predict(y)
+
 
 
 # In[28]:
