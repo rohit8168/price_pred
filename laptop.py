@@ -1,5 +1,9 @@
 #!/usr/bin/env python
 # coding: utf-8
+import subprocess
+
+# Run pip install command
+subprocess.run(["pip", "install", "scikit-learn"])
 
 # In[2]:
 !pip install scikit-learn
