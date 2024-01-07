@@ -1,18 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
-try:
-    import sklearn
-except ImportError:
-    import subprocess
-    subprocess.run(["pip", "install", "scikit-learn"])
 
-# Now try importing again
-try:
-    import sklearn
-    print("Scikit-learn is installed and available.")
-    # You can use Scikit-learn functionalities here
-except ImportError:
-    print("Failed to install Scikit-learn. Please install it manually.")
 
 
 # In[2]:
