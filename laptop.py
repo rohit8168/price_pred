@@ -2,7 +2,8 @@
 # coding: utf-8
 
 # In[2]:
-pip install streamlit scikit-learn
+!pip install scikit-learn
+
 
 
 import pandas as pd 
