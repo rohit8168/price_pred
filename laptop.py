@@ -7,7 +7,7 @@ subprocess.run(["pip", "install", "scikit-learn"])
 
 # In[2]:
 
-from scilit-learn import sklearn
+from scikit-learn import sklearn
 
 
 import pandas as pd 
