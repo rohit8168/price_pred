@@ -5,7 +5,7 @@
 
 
 import pandas as pd 
-import matplotlib.pyplot as plt
+
 import numpy as np
 
 
@@ -62,8 +62,7 @@ X=df.copy()
 
 
 x=df.value_counts(df['brand'])
-df['brand'].value_counts().plot(kind="pie",autopct="%2.2f%%")
-plt.show()
+
 
 
 # In[9]:
