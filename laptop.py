@@ -123,8 +123,8 @@ x=x_test.iloc[1]
 # In[15]:
 
 
-from sklearn.svm import SVR
-regressor=SVR()
+from sklearn.ensemble import RandomForestRegressor
+regressor=RandomForestRegressor()
 regressor.fit(scaled_x_train,y_train)
 
 
