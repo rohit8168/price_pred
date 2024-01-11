@@ -246,4 +246,5 @@ else:
 rate=[1,2,3,4,5]
 rate_=st.selectbox("Rating",options=rate)
 x=np.array([brand,processor_brand,process,process_gen,ram_size,ram_type,ssd_size,hdd,os_,os_bit,gra_siz,weight,warr_,touch,ms_o,rate_]).reshape(1,-1)
-st.write(regressor.predict(x))
+
+st.write("price of laptop is",regressor.predict(x))
